@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <input type="file">
+  <img src="https://user-gold-cdn.xitu.io/2018/11/15/16716547cc67f255?imageView2/0/w/1280/h/960/ignore-error/1">
+</body>
+<script>
+  var str = ["5 - Django ", "5 - Django ?????锟介é|?锟斤拷?锟教拷锟斤拷????", "512", "51841", "52"]
+  let newArr = []
+  str.forEach(item => {
+    newArr.push(item.split('5').join(`<span style="color:red">5</span>`))
+
+  })
+  console.log(newArr)
+</script>
+
+</html>
